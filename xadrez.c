@@ -23,6 +23,13 @@ int main() {
             i++;
     } while (i <= bispo);
     
-   
+    printf("--- Movimento da Rainha! ---\n");
+    i = 1;
+
+    for ( i = i; i <= 8; i++)
+    {
+        printf("Ësquerda!\n");
+    }
+    
     return 0;
 }
