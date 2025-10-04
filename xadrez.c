@@ -14,6 +14,15 @@ int main() {
             i++;
     }
 
+    printf("--- Movimento do Bispo! ---\n");
+    i = 1;
 
+    do
+    {
+        printf("Cima, Direita!\n");
+            i++;
+    } while (i <= bispo);
+    
+   
     return 0;
 }
