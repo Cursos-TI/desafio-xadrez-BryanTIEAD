@@ -15,6 +15,14 @@ void moverBispo(int casas) {
 printf("Direita, Cima!\n");
 moverBispo(casas - 1);
 }
+
+// Movimento da Rainha (8 casas á esquerda)
+void moverRainha(int casas){
+    if (casas == 0)
+return;
+printf("Esquerda!\n");
+moverRainha(casas - 1);
+}
 int main() {
     int torre = 5; //Quantidade de casas que vai mover.
     int bispo = 5; //Quantidade de casas que vai mover.
