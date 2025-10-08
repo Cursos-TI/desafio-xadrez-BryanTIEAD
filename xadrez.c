@@ -8,6 +8,13 @@ printf("Direita!\n");
 moverTorre(casas - 1) ;
 }
 
+// Movimento do Bispo (5 casas na diagonal Direita/Cima)
+void moverBispo(int casas) {
+    if (casas == 0)
+    return;
+printf("Direita, Cima!\n");
+moverBispo(casas - 1);
+}
 int main() {
     int torre = 5; //Quantidade de casas que vai mover.
     int bispo = 5; //Quantidade de casas que vai mover.
