@@ -31,5 +31,17 @@ int main() {
         printf("Ësquerda!\n");
     }
     
+
+    printf("--- Movimento do Cavalo! ---\n");
+
+     int movimentoCompleto = 1; // Controla o movimento em "L"
+
+    while (movimentoCompleto--) 
+    {
+        for (int j = 0; j < 2; j++) {
+            printf("Baixo\n"); // Imprime "Baixo" duas vezes
+        }
+        printf("Esquerda\n"); // Imprime "Esquerda" uma vez
+    }
     return 0;
 }
