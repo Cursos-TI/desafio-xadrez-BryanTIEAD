@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+// Movimento da torre (5 casas a direita)
+void moverTorre(int casas){
+    if (casas == 0)
+    return;
+printf("Direita!\n");
+moverTorre(casas - 1) ;
+}
+
 int main() {
     int torre = 5; //Quantidade de casas que vai mover.
     int bispo = 5; //Quantidade de casas que vai mover.
