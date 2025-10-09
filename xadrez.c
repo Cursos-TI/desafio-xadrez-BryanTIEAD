@@ -58,7 +58,7 @@ void moverCavalo() {
 }
 int main() {
    
-    int torre = 3;
+    int torre = 5;
     int bispo = 5;
     int rainha = 8;
 
@@ -72,6 +72,6 @@ int main() {
     moverRainha(rainha);
 
     moverCavalo();
-    
+
     return 0;
 }
