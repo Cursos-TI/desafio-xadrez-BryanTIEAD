@@ -39,9 +39,22 @@ void moverCavalo() {
 
     printf("Movimento escolhido:\n");
     
-
-
-
+    switch (opcao) {
+        case 1:
+            printf("Cima, Cima, Direita!\n");
+            break;
+        case 2:
+            printf("Cima, Cima, Esquerda!\n");
+            break;
+        case 3:
+            printf("Baixo, Baixo, Direita!\n");
+            break;
+        case 4:
+            printf("Baixo, Baixo, Esquerda!\n");
+            break;
+        default:
+            printf("Opçao Inválida!\n");
+    }
 }
 int main() {
    
