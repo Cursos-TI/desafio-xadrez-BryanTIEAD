@@ -58,5 +58,20 @@ void moverCavalo() {
 }
 int main() {
    
+    int torre = 3;
+    int bispo = 5;
+    int rainha = 8;
+
+    printf("--- Movimento da Torre! ---\n");
+    moverTorre(torre);
+
+    printf("--- Movimento do Bispo! ---\n");
+    moverBispo(bispo);
+
+    printf("--- Movimento da Rainha! ---\n");
+    moverRainha(rainha);
+
+    moverCavalo();
+    
     return 0;
 }
